@@ -1,5 +1,5 @@
 [project]
-name = "Constitution App API"
+name = "Constitution-App-API"
 version = "0.1.0"
 description = "Backend api for Constitution RAG app."
 readme = "README.md"

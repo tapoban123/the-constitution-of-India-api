@@ -53,7 +53,6 @@ class PineconeManager:
         print(f"Completed upload of all documents.", end="\n" * 3)
 
     def perform_similarity_search(self, query: str):
-        self.pc.s
         similar_docs = self._vector_store.similarity_search(query=query, k=5)
         formatted_content = " ".join(x.page_content for x in similar_docs)
         page_nos = [doc.metadata["page_label"] for doc in similar_docs]
