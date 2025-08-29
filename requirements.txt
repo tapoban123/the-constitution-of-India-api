@@ -5,3 +5,4 @@ pypdf
 fastapi[standard]
 langchain-mistralai
 pinecone
+numpy
